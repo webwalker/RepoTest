@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin" fetch="https://github.com/webwalker/RepoTest.git" />
+    <remote name="origin" fetch=".." />
     <default remote="origin" revision="master" />
-    <project name="https://github.com/webwalker/Repo_1.git" path="Repo_1" />
-    <project name="https://github.com/webwalker/Repo_2.git" path="Repo_2" />
+    <project name="Repo_1" path="Repo_1" />
+    <project name="Repo_2" path="Repo_2" />
 </manifest>
