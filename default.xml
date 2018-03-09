@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin" fetch=".." />
-    <default remote="origin" revision="master" />
-    <project name="Repo_1" path="Repo_1" />
-    <project name="Repo_2" path="Repo_2" />
+    <remote name="repo_demo" fetch=".." />
+    <default remote="repo_demo" revision="master" sync-j="4" />
+    <project name="repo_demo_app" path="." revision="master" />
+    <project name="repo_demo_lib1" path="lib1" revision="bc1" />
+    <project name="repo_demo_lib2" path="lib2" revision="master" />
 </manifest>
